@@ -14,6 +14,8 @@ const typeDefs = gql`
 			amount: Double 
 			status: String 
 			address: String
+      delivery: Delivery
+      inventory: Inventory
     }
     type Inventory {
     	id: Long! 
